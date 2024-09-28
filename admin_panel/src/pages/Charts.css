@@ -1,0 +1,49 @@
+/*.charts-container {*/
+/*    padding: 20px;*/
+/*}*/
+
+/*.card {*/
+/*    margin-bottom: 20px;*/
+/*    gap: 20px;*/
+/*}*/
+
+/*.charts-row {*/
+/*    display: flex;*/
+/*    flex-wrap: wrap;*/
+/*    gap: 20px;*/
+/*    justify-content: space-evenly;*/
+/*}*/
+
+/*.chart-card {*/
+/*    flex: 1;*/
+/*    min-width: 300px;*/
+/*    height: 400px;*/
+/*    position: relative;*/
+/*}*/
+
+/*.chart-card canvas {*/
+/*    width: 100% !important;*/
+/*    height: 100% !important;*/
+/*}*/
+.charts-container {
+    /*padding: 20px;*/
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+
+
+/*.ant-card {*/
+/*    height: 100%;*/
+/*}*/
+
+/*.ant-card-body {*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    justify-content: center;*/
+/*    height: 100%;*/
+/*}*/
+
+
+

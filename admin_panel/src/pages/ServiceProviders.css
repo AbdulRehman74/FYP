@@ -1,0 +1,26 @@
+.service-providers-container {
+    padding: 20px;
+    text-align: center;
+}
+
+.providers-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.service-providers-container {
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.providers-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}

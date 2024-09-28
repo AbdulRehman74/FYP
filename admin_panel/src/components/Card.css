@@ -1,0 +1,135 @@
+.service-provider-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.2s, box-shadow 0.2s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10px;
+    width: 250px;
+}
+
+.service-provider-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.avatar img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    margin-right: 15px;
+}
+.provider-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.provider-info h3 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.category {
+    color: #888;
+}
+
+.card-body {
+    padding: 0 20px;
+}
+
+.rating, .reviews {
+    margin: 10px 0;
+}
+
+
+
+.button {
+    background-color: #3aafc9;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.reviewsBtn:hover {
+    background-color: #16cbc4;
+}
+.deleteBtn:hover {
+    background-color: #d52151;
+}
+/**/
+.card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+    width: 250px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+.location {
+    margin-bottom: 10px;
+}
+.card-header {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    background: #f7f7f7;
+    border-bottom: 1px solid #eaeaea;
+}
+
+
+
+.card-info h2 {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+}
+
+.card-info h3 {
+    margin: 5px 0 0;
+    font-size: 14px;
+    color: #777;
+}
+
+.card-body {
+    padding: 15px;
+    text-align: center;
+    font-size: 14px;
+    color: #555;
+}
+
+.card-footer {
+    padding: 15px;
+    background: #f7f7f7;
+    border-top: 1px solid #eaeaea;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+.star {
+    color: gold;
+    margin: 0 2px;
+    font-size: 20px;
+}
